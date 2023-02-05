@@ -1,0 +1,109 @@
+body{
+    font-family: Arvo serif;
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1897-768x512.jpg) center center ;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
+.navbar-inverse{
+    background: rgba(24, 24, 24, 0.5);
+    color: white;
+}
+.nav li{
+    color: #fff;
+    margin-right: 100px;
+    margin: 10px;
+    text-decoration-color: #fff;
+    font-size: 17px;
+    padding: 8px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+/* .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color: #fff;
+} */
+/* .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color:#fff
+} */
+/* .nav-link{
+    color: #fff;
+} */
+/* .navbar-nav .nav-link.active, .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+} */
+.navbar-expand-lg .navbar-nav .nav-link {color: #fff;}
+/* .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-size: 17px;
+} */
+.navbar-brand{
+    color: #fff;
+}
+/* .navbar-nav .nav-link, .navbar-nav .nav-link {
+    color: darksalmon;
+} */
+.navbar .navbar-expand-lg .navbar-inverse{
+    color: #fff;
+}
+.logo{
+    height: 30px;
+}
+.jumbotron{
+    border-color: transparent;
+    color: rgb(8, 233, 8);
+    text-align: center;
+    margin: 10px;
+    font-size: 100px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+ 
+.bodyimage{
+    height: 100px;
+}
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+.icons p{
+    font-size: 15px;
+}
+.container{
+    max-width: 1000px;
+    margin-bottom: 10px;
+}
+.contact{
+    text-align: center;
+    margin-top : 30px;
+    margin-bottom: 200px;
+    
+}
+.contact .btn{
+    background-color:rgba(4, 252, 13, 0.5);
+    /* background-color: #fff; */
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 70px;
+
+}
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 1px 0;
+}
+.contact .btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    border: none;
+}
+@media(max-width:768px) {
+   .bodyimage{
+    height: 70px;
+   } 
+}
